@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div class="container">
+             <!-- Collapsible menu -->
+             <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand h1" href="#">The News</a>
+                <button class="navbar-toggler" type="button" aria-controls="newsMenu" aria-expanded="false"
+                aria-label="Toggle navigation" data-toggle="collapse" data-target="#newsMenu">
+                 <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- navbar memu-->
+                <div class="collapse navbar-collapse" id="newsMenu">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#">Home</a>
+                        <a class="nav-item nav-link" href="#">News</a>
+                        <a class="nav-item nav-link" href="#">Contact</a>
+                        <a class="nav-item nav-link" href="#">About</a>
+                    </div>
+                </div>
+
+            </nav>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Laptop in town</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Car in town</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">XYZ launches new phone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">New Laptop in town</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img class="img-fluid" src="img/img-2.jpg">
+                            <div class="h3">Drinking Coffee Can Boost Productivity</div>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                                It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+                                and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+                                (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                                This book is a treatise on the theory of ethics, very popular during the Renaissance.
+                                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                                Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in
+                                their exact original form, accompanied by English versions from the 1914 translation by H. 
+                                Rackham.
+                            </p>
+                        </div>
+                    </div>
+            
+                </div>
+
+            </div>
+
+            <!-- Contact form -->
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-12">
+                    <div class="h5">Contact form</div>
+                    <hr class="my-4">
+                    <form>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" class="form-control" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
